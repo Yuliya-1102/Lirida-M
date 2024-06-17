@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="ru" class="page" >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Лирида-М</title>
+  <!-- <link rel="preload" href="fonts/MullerRegular.woff2" as="font" type="font/woff2" crossorigin> -->
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script defer src="js/main.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header" id="top">
+  <div class="container">
+    <div class="header__wrapper">
+      <a href="index.html" class="header__logo">
+        <img src="./img/logo.svg" alt="logo">
+      </a>
+      <div class="social header__social header__social--desctop">
+        <a class="social-link" href="https://t.me/psy_vitever" target="_blank">
+          <img src="img/Telegram.svg" alt="Telegram">
+        </a>
+        <a class="social-link" href="viber://chat?number=%2B375291322705" target="_blank">
+          <img src="img/Viber.svg" alt="Viber">
+        </a>
+        <a class="social-link" href="https://www.instagram.com/vitteverr?igsh=MTlpcXZ2Zzc2NjU2bg==" target="_blank">
+          <img src="img/Instagram.svg" alt="Instagram">
+        </a>
+        <a class="social-link" href="https://www.facebook.com/profile.php?id=100008428381963&mibextid=ZbWKwL" target="_blank">
+          <img src="img/Facebook.svg" alt="Facebook">
+        </a>
+        <a class="social-link" href="https://wa.clck.bar/375291322705" target="_blank">
+          <img src="img/WhatsApp.svg" alt="WhatsApp">
+        </a>
+        <a class="social-link" href="skype:vitteverr" target="_blank">
+          <img src="img/Skype.svg" alt="Skype">
+        </a>
+      </div>
+
+      <div class="header__contact">
+        <div class="header__contact-wrapper">
+          <div class="header__contact-item header__contact-address">
+            <img class="header__contact-item--img" src="img/location-tick.svg" class="image" alt="" width="20" height="22">
+            <address>ул.Раковская, 12, офис 302</address>
+          </div>
+          <div class="header__contact-item header__contact-email">
+            <img class="header__contact-item--img" src="img/sms.svg" class="image" alt="">
+            <a href="mailto:vitteverr@gmail.com">vitteverr@gmail.com</a>
+          </div>
+        </div>
+        <div class="header__contact-wrapper header__contact-wrapper--desctop">
+          <div class="header__contact-item header__contact-time">
+            <img class="header__contact-item--img" src="img/clock.svg" class="image" alt="">
+            <p>Пн-ВС 9:00 — 21:00</p>
+          </div>
+          <div class="header__contact-item header__contact-phone">
+            <img class="header__contact-item--img" src="img/call.svg" class="image" alt="">
+            <a href="tel:+375291322705">+375 29 132 27 05</a>
+          </div>
+        </div>
+      </div>
+
+      <button class="btn btn-reset header__btn btn-call btn-consult" id="header-btn">Заказать звонок</button>
+
+      <div class="header__burger">
+        <img src="img/burger.svg" class="image" width="44" height="44" alt="burger">
+      </div>
+    </div>
+
+    <div class="header__border"></div>
+    <!-- header__wrapper -->
+    <nav class="nav header__nav">
+      <ul class="list-reset nav__list header__nav-list">
+        <li class="nav__item header__nav-item"><a href="index.html" class="nav__link">Главная</a></li>
+        <li class="nav__item header__nav-item"><a href="about.html" class="nav__link">Обо мне</a></li>
+        <li class="nav__item header__nav-item header__nav-item--down"><a href="services.html" class="nav__link">Услуги</a>
+          <ul class="nav__drop-down-list">
+            <li class="nav__item header__nav-item nav__drop-down-item"><a href="work-with-body.html" class="nav__link">Работа с телом</a></li>
+            <li class="nav__item header__nav-item nav__drop-down-item"><a href="work-with-feelings.html" class="nav__link">Работа с чувствами</a></li>
+            <li class="nav__item header__nav-item nav__drop-down-item"><a href="self-esteem.html" class="nav__link">Самооценка</a></li>
+            <li class="nav__item header__nav-item nav__drop-down-item"><a href="bullying.html" class="nav__link">Травля</a></li>
+            <li class="nav__item header__nav-item nav__drop-down-item"><a href="work-with-dependencies.html" class="nav__link">Работа с зависимостями</a></li>
+            <li class="nav__item header__nav-item nav__drop-down-item"><a href="group-therapy.html" class="nav__link">Групповая терапия</a></li>
+          </ul>
+        </li>
+        <li class="nav__item header__nav-item"><a href="price.html" class="nav__link">Стоимость услуг</a></li>
+        <li class="nav__item header__nav-item"><a href="practice.html" class="nav__link">Практика</a></li>
+        <li class="nav__item header__nav-item"><a href="questions.html" class="nav__link">Вопросы</a></li>
+        <li class="nav__item header__nav-item"><a href="reviews.html" class="nav__link">Отзывы</a></li>
+        <li class="nav__item header__nav-item"><a href="contact.html" class="nav__link">Контакты</a></li>
+      </ul>
+    </nav>
+
+    <!-- mobile nav -->
+    <div class="header__nav-mobile--wrapper">
+      <div class="header__nav-mobile header__nav-mobile--content">
+        <div class="modal__close header__nav-mobile--close">
+          <img src="img/close-btn.svg" alt="close">
+        </div>
+        <nav class="nav header__nav" id="header__nav--mobile">
+          <ul class="list-reset nav__list header__nav-list">
+            <li class="nav__item header__nav-item"><a href="index.html" class="nav__link">Главная</a></li>
+            <li class="nav__item header__nav-item"><a href="about.html" class="nav__link">Обо мне</a></li>
+            <li class="nav__item header__nav-item header__nav-item--down"><a href="services.html" class="nav__link">Услуги</a>
+              <ul class="nav__drop-down-list">
+                <li class="nav__item header__nav-item nav__drop-down-item"><a href="work-with-body.html" class="nav__link">Работа с телом</a></li>
+                <li class="nav__item header__nav-item nav__drop-down-item"><a href="work-with-feelings.html" class="nav__link">Работа с чувствами</a></li>
+                <li class="nav__item header__nav-item nav__drop-down-item"><a href="self-esteem.html" class="nav__link">Самооценка</a></li>
+                <li class="nav__item header__nav-item nav__drop-down-item"><a href="bullying.html" class="nav__link">Травля</a></li>
+                <li class="nav__item header__nav-item nav__drop-down-item"><a href="work-with-dependencies.html" class="nav__link">Работа с зависимостями</a></li>
+                <li class="nav__item header__nav-item nav__drop-down-item"><a href="group-therapy.html" class="nav__link">Групповая терапия</a></li>
+              </ul>
+            </li>
+            <li class="nav__item header__nav-item"><a href="price.html" class="nav__link">Стоимость услуг</a></li>
+            <li class="nav__item header__nav-item"><a href="practice.html" class="nav__link">Практика</a></li>
+            <li class="nav__item header__nav-item"><a href="questions.html" class="nav__link">Вопросы</a></li>
+            <li class="nav__item header__nav-item"><a href="reviews.html" class="nav__link">Отзывы</a></li>
+            <li class="nav__item header__nav-item"><a href="contact.html" class="nav__link">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <div class="social header__social header__social--mobile">
+          <a class="social-link" href="https://t.me/psy_vitever" target="_blank">
+            <img src="img/Telegram.svg" alt="Telegram">
+          </a>
+          <a class="social-link" href="viber://chat?number=%2B375291322705" target="_blank">
+            <img src="img/Viber.svg" alt="Viber">
+          </a>
+          <a class="social-link" href="https://www.instagram.com/vitteverr?igsh=MTlpcXZ2Zzc2NjU2bg==" target="_blank">
+            <img src="img/Instagram.svg" alt="Instagram">
+          </a>
+          <a class="social-link" href="https://www.facebook.com/profile.php?id=100008428381963&mibextid=ZbWKwL" target="_blank">
+            <img src="img/Facebook.svg" alt="Facebook">
+          </a>
+          <a class="social-link" href="https://wa.clck.bar/375291322705" target="_blank">
+            <img src="img/WhatsApp.svg" alt="WhatsApp">
+          </a>
+          <a class="social-link" href="skype:vitteverr" target="_blank">
+            <img src="img/Skype.svg" alt="Skype">
+          </a>
+        </div>
+
+        <div class="header__contact-wrapper header__contact-wrapper--mobile">
+          <div class="header__contact-item header__contact-time">
+            <img class="header__contact-item--img" src="img/clock.svg" class="image" alt="">
+            <p>Пн-ВС 9:00 — 21:00</p>
+          </div>
+          <div class="header__contact-item header__contact-phone">
+            <img class="header__contact-item--img" src="img/call.svg" class="image" alt="">
+            <a href="tel:+375291322705">+375 29 132 27 05</a>
+          </div>
+        </div>
+
+        <div class="header__contact-wrapper">
+          <div class="header__contact-item header__contact-address">
+            <img class="header__contact-item--img" src="img/location-tick.svg" class="image" alt="" width="20" height="22">
+            <address>ул.Раковская, 12, офис 302</address>
+          </div>
+          <div class="header__contact-item header__contact-email">
+            <img class="header__contact-item--img" src="img/sms.svg" class="image" alt="">
+            <a href="mailto:vitteverr@gmail.com">vitteverr@gmail.com</a>
+          </div>
+        </div>
+
+        <button class="btn btn-reset header__btn btn-call btn-consult">Заказать звонок</button>
+      </div>
+    </div>
+
+  </div>
+  <!-- container -->
+</header>
+
+    <main class="main">
+
+      <div class="container body__container breadcrumbs__container">
+        <div class="container breadcrumbs">
+          <a href="#" class="breadcrumbs__link">Главная</a><span> / </span><a href="#" class="breadcrumbs__link">Услуги психолога</a><span class="breadcrumbs__link-last"> / Работа с чувствами</span>
+        </div>
+        <div class="body__wrap body__wrap--mobile">
+          <h1 class="body__title body__title--mobile">Работа с чувствами</h1>
+          <div class="body__content body__content--mobile">
+            <h1 class="body__title body__title--desctop">Работа с чувствами</h1>
+            <p class="body__descr">Эмоция и чувства выступает связующим звеном между человеком и внешним миром.
+              Для человека эмоция — незаменимый ориентир, своеобразный сигнал.</p>
+            <div class="main__about-btns body__about-btns--desctop">
+              <button class="btn btn-reset main__about-btn btn-consult glare">Получить консультацию</button>
+              <a href="https://t.me/psy_vitever" class="btn btn-reset main__about-btn btn-telegram" target="_blank">
+                Написать в Telegram
+              </a>
+            </div>
+          </div>
+
+          <div class="body__img">
+            <img src="img/services-2-1.png" alt="services">
+          </div>
+        </div>
+
+        <div class="main__about-btns body__about-btns--mobile">
+          <button class="btn btn-reset main__about-btn btn-consult">Получить консультацию</button>
+          <a href="https://t.me/psy_vitever" class="btn btn-reset main__about-btn btn-telegram" target="_blank">
+            Написать в Telegram
+          </a>
+        </div>
+
+      </div>
+
+      <section class="services-about">
+  <div class="services-about__container">
+    <div class="services-about__wrap">
+      <div class="services-about__bg">
+        <img src="img/services-1-bg.png" alt="background">
+      </div>
+      <div class="services-about__flowers">
+        <img src="img/services-1-flowers.svg" alt="flowers">
+      </div>
+      <h2 class="main-title services-about__title services-about__title--mobile">Обо мне</h2>
+      <div class="services-about__img">
+        <img src="img/services-1-1.png" alt="Виталия Пастушенко">
+      </div>
+      <div class="services-about__content">
+        <h2 class="main-title services-about__title services-about__title--desctop">Обо мне</h2>
+        <p class="services-about__text">Я практикующий психолог. Практикую с 2015 года. Закончила БГПУ им. М. Танка в 2003 году по специальности «Практическая психология», прошла три квалификационные ступени МГИ, в работе совмещаю гештальт-подход и телесно-ориентированную терапию. Пять лет работала в городской наркологии, на базе которой запускала реабилитацию для зависимых людей. Образование и пройденные специализации можно посмотреть <a href="about.html">здесь</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <div class="section work">
+        <div class="work__bg">
+          <img src="img/work-1-bg.svg" alt="background">
+        </div>
+        <div class="container">
+          <div class="work__container">
+            <div class="work__flowers">
+              <img src="img/work-flowers.svg" alt="flowers">
+            </div>
+            <h2 class="main-title work__title">Работа с виной, стыдом и другими сложными чувствами</h2>
+            <p class="work__quote work__quote--first">Чувства нельзя подавить или запереть внутри.<br> Они приходят и уходят, но мы сами выбираем, как с ними обращаться <span> Дэниэл Гоулман</span></p>
+              <p class="work__quote">Чувства — это наш внутренний компас<br>Игнорировать их — значит потерять свое направление.<span> Лесли С. Гослин</span></p>
+            <div class="work__content-wrap">
+              <p class="work__text work__content-text">«Что ты чувствуешь?» — пожалуй, один из самых распространённых вопросов в кабинете психолога, и один из самых забытых в бытовой жизни. Редко кто задаёт себе этот вопрос. Гораздо чаще звучит критика, самообвинения, самозастыживание. Так складывается часто из-за того, что в детстве никто не интересовался чувствами ребёнка, никто не привил навык интересоваться собой, замечать себя, вовремя задавать вопрос «Что же я чувствую?». Так проще жить и сложнее одновременно. Поэтому, приходя на консультацию к психологу, люди удивляются, когда кто‑то интересуется их чувствами.</p>
+              <div class="work__content-img">
+                <img src="img/services-2-2.png" alt="work body">
+              </div>
+            </div>
+            <p class="work__text work__text--service-1">Почему различать чувства важно? Давайте порассуждаем.</p>
+            <p class="work__text">
+              Всем известна фраза, что то, что мы не осознаем, управляет нами. Т.е. если мы не осознаем эмоции, эмоции начинают управлять нами. Когда разозлился на сотрудника, а сорвался на ребёнке; когда при расставании, вместо проживания горя о потере отношений, вступаешь в новые, и повторяется тот же сценарий, и так по кругу; когда откладываешь на последний момент важное решение, не осознавая собственного беспокойства. Пока чувства не осознаются, у человека нет выбора, его выбор будет продиктован чувствами. С чем точно справляется человек в таких ситуациях, так это с самокритикой и самообесцениванием. Для человека эмоция — незаменимый ориентир, своеобразный сигнал. В каждый момент времени мы что‑то чувствуем, независимо от того, осознаем мы это либо нет. Эмоция возникает не сама по себе, а в ответ на событие. Таким образом, эмоция выступает связующим звеном между человеком и внешним миром. С помощью эмоций и чувств мы можем понять, что что‑то не так, если, к примеру, почувствовали раздражение, злость, страх. Обычно человек, впервые попавший на терапию, оказывается очень удивлён уровню накопленной злости, изо всех сил пытается держать лицо и быть «хорошим человеком». Это привычное действие, ведь большинству говорили, «хорошие девочки не плачут, хорошие мальчики не злятся», и так приходится жить и копить эти сложные эмоции, названные когда‑то плохими, отрицать их в себе, не позволять себе их прожить. И тогда жить свою жизнь лишь частично, или жить не свою жизнь, а ту, которую хотели мама-папа-кто‑то важный. Весь парадокс в том, что, проживая то или иное чувство в полной мере, можно снижать его интенсивность, и начать творчески жить свою жизнь, осознавая ценность каждого возникающего внутри чувства.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <section class="experience section">
+  <div class="experience__bg-background">
+    <img src="img/exp-bg.svg" alt="background">
+  </div>
+  <div class="container">
+    <div class="experience__wrap">
+      <div class="experience__bg">
+        <img src="img/exp-flowers.svg" alt="flowers">
+      </div>
+
+      <h2 class="main-title experience__title">Мой опыт</h2>
+      <div class="experience__list" id="scrollArea">
+        <div class="experience__item">
+          <div class="experience__item-bg">
+            <p class="experience__item-num">85%</p>
+          </div>
+          <p class="experience__item-text">Клиентов приходят по рекомендации, тех кому я уже помогла</p>
+        </div>
+        <div class="experience__item">
+          <div class="experience__item-bg">
+            <p class="experience__item-num">10000+</p>
+          </div>
+          <p class="experience__item-text">Часов обучения</p>
+        </div>
+        <div class="experience__item">
+          <div class="experience__item-bg">
+            <p class="experience__item-num">5<br> <span>лет</span></p>
+          </div>
+          <p class="experience__item-text">Практики в учреждении здравоохранения</p>
+        </div>
+        <div class="experience__item">
+          <div class="experience__item-bg">
+            <p class="experience__item-num">9<br> <span>лет</span></p>
+          </div>
+          <p class="experience__item-text">Мой опыт по оказанию консультативной помощи</p>
+        </div>
+        <div class="experience__item">
+          <div class="experience__item-bg">
+            <p class="experience__item-num">500+</p>
+          </div>
+          <p class="experience__item-text">Часов личной терапии</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section my-services">
+  <div class="container">
+    <h2 class="main-title my-services__title">Мои услуги</h2>
+    <div class="my-services__wrap">
+      <a href="work-with-body.html" class="my-services__item">
+        <div class="my-services__item-img">
+          <img src="img/my-services-1.png" alt="services">
+        </div>
+        <p class="my-services__item-title">Работа с телом</p>
+        <p class="my-services__item-text">Восстановление доверия к себе через работу с телом, проработка травм развития</p>
+      </a>
+      <a href="work-with-feelings.html" class="my-services__item">
+        <div class="my-services__item-img">
+          <img src="img/my-services-2.png" alt="services">
+        </div>
+        <p class="my-services__item-title">Работа с чувствами</p>
+        <p class="my-services__item-text">Если вы часто испытываете стыд, вину, злость….</p>
+      </a>
+      <a href="self-esteem.html" class="my-services__item">
+        <div class="my-services__item-img">
+          <img src="img/my-services-3.png" alt="services">
+        </div>
+        <p class="my-services__item-title">Самооценка</p>
+        <p class="my-services__item-text">Формируя позитивное восприятие себя, мы создаём основу для успешной жизни</p>
+      </a>
+      <a href="bullying.html" class="my-services__item">
+        <div class="my-services__item-img">
+          <img src="img/my-services-4.png" alt="services">
+        </div>
+        <p class="my-services__item-title">Травля</p>
+        <p class="my-services__item-text">Поддержка, преодоление последствий, поиск ресурсов и восстановление</p>
+      </a>
+      <a href="work-with-dependencies.html" class="my-services__item">
+        <div class="my-services__item-img">
+          <img src="img/my-services-5.png" alt="services">
+        </div>
+        <p class="my-services__item-title">Работа с зависимостями</p>
+        <p class="my-services__item-text">Если ваша зависимость или близкого человека кажется вам проблемой, вам не кажется</p>
+      </a>
+      <a href="group-therapy.html" class="my-services__item">
+        <div class="my-services__item-img">
+          <img src="img/my-services-6.png" alt="services">
+        </div>
+        <p class="my-services__item-title">Групповая терапия</p>
+        <p class="my-services__item-text">Если интерес к себе и самоисследование для вас важно, то группа — это именно то место, где это возможно</p>
+      </a>
+  </div>
+</section>
+
+      <section class="section form consultation">
+  <div class="container form__container">
+    <div class="form__bg form__bg--left">
+      <img src="img/form-flowers-1.svg" alt="flowers">
+    </div>
+    <div class="form__bg form__bg--right">
+      <img src="img/form-flowers-2.svg" alt="flowers">
+    </div>
+    <div class="form__bg form__bg--center">
+      <img src="img/form-flowers-3.svg" alt="flowers">
+    </div>
+    <h2 class="main-title form__title">Записаться на консультацию</h2>
+    <p class="form__text">Я свяжусь с вами в ближайшее время</p>
+
+    <form class="form consultation__form" action="mail.php" method="POST">
+      <div class="form__wrap">
+        <div class="form__content">
+          <label class="label form__item-label">
+            Как к вам обращаться
+            <input class="form__item-input form__item-input--text" type="text" name="name" placeholder="Имя">
+          </label>
+          <label class="label form__item-label">
+            Номер телефона
+            <input class="form__item-input form__item-input--tel modal-tel" type="tel" name="phone" data-validate-field="tel" placeholder="+375 (29) 999-99-99">
+          </label>
+          <label class="label form__item-label form__item-label--textarea">
+            Комментарий
+            <textarea class="form__textarea"  name="comment" placeholder="Краткое описание вашей проблемы и удобное время для звонка"></textarea>
+          </label>
+
+          <label  class="connect__label connect__label-checkbox" required>
+            <input class="connect__checkbox" type="checkbox" id="agree" required name="checkbox" checked data-validate-field="checkbox">
+            <span></span>
+            <p>Согласие на обработку персональных данных</p>
+          </label>
+
+        </div>
+        <button id="form__send" class="form__item-btn btn btn-reset">Отправить</button>
+      </div>
+    </form>
+
+  </div>
+</section>
+
+      <section class='section contact-main'>
+  <div class="container">
+    <div class="container breadcrumbs">
+      <a href="#" class="breadcrumbs__link">Главная</a> <span class="breadcrumbs__separator">/</span> <span class="breadcrumbs__link-last">Контакты</span>
+    </div>
+    <div class="contact-main__wrap">
+      <div class="contact-main__bg">
+        <img src="img/contact-flowers.svg" alt="flowers">
+      </div>
+      <div class="contact-main__content">
+        <h2 class="main-title contact-main__title">Контакты</h2>
+        <p class="contact-main__text">Мой кабинет находится в Минске, в пяти минутах от трех станций метро</p>
+        <ul class="contact-main__inf">
+          <li class="contact-main__item">
+            <p class="contact-main__item--name">Адрес</p>
+            <address class="contact-main__item--inf">ул.Раковская, 12, офис 302</address>
+          </li>
+          <li class="contact-main__item">
+            <p class="contact-main__item--name">Телефон</p>
+            <a href="tel:+375291322705" class="contact-main__item--inf">+375 29 132 27 05</a>
+          </li>
+          <li class="contact-main__item">
+            <p class="contact-main__item--name">E-mail</p>
+            <a href="mailto:vitteverr@gmail.com" class="contact-main__item--inf">vitteverr@gmail.com</a>
+          </li>
+          <li class="contact-main__item">
+            <p class="contact-main__item--name">Время работы</p>
+            <p class="contact-main__item--inf">Пн-ВС 9:00 — 21:00</p>
+          </li>
+          <li class="contact-main__item">
+            <a href="contact.html" class="contact-main__item--map">Как меня найти</a>
+            <a href="https://maps.app.goo.gl/rhtao8h4MKxvpaaT9" class="contact-main__item--map" target="_blank">Смотреть на карте</a>
+          </li>
+          <p class="contact-main__answer">Если я не отвечаю на сообщение — не расстраивайтесь и не тревожьтесь, скорее всего, я работаю и отвечу сразу, как освобожусь</p>
+        </ul>
+      </div>
+
+      <div class="contact-main__images">
+        <div class="contact-main__images-item">
+          <img src="img/office-1.png" alt="office">
+        </div>
+        <div class="contact-main__images-item">
+          <img src="img/office-2.png" alt="office">
+        </div>
+        <div class="contact-main__images-item">
+          <img src="img/office-3.png" alt="office">
+        </div>
+        <div class="contact-main__images-item">
+          <img src="img/office-4.png" alt="office">
+        </div>
+        <div class="contact-main__images-item">
+          <img src="img/office-5.png" alt="office">
+        </div>
+        <div class="contact-main__images-item">
+          <img src="img/office-6.png" alt="office">
+        </div>
+        <div class="contact-main__images-item">
+          <img src="img/office-7.png" alt="office">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    </main>
+      <footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__bg footer__bg--left">
+      <img src="img/footer-flowers-1.svg" alt="flowers">
+    </div>
+    <div class="footer__bg footer__bg--right">
+      <img src="img/footer-flowers-2.svg" alt="flowers">
+    </div>
+    <div class="footer__logo footer__logo--mobile">
+      <img src="img/logo.svg" alt="logo">
+    </div>
+    <div class="footer__wrap">
+      <div class="footer__item">
+        <div class="footer__logo footer__logo--desctop">
+          <img src="img/logo.svg" alt="logo">
+        </div>
+        <div class="footer__reg">
+          <p>Зарегистрирован в Едином государственном регистре юридических лиц и индивидуальных предпринимателей 27.09.2007 г. Минским горисполкомом.</p>
+          <p>Юридический и почтовый адрес: 220049 РБ, г. Минск, ул. Волгоградская 13–202</p>
+          <p>УНП 190871937</p>
+          <p>ООО «Лирида М»</p>
+          <p>e-mail: vitteverr@gmail.com, тел.+375291322705</p>
+        </div>
+        <div class="footer__social">
+          <a href="#" class="footer__social-item">
+            <img src="img/Facebook.svg" alt="Facebook">
+          </a>
+          <a href="#" class="footer__social-item">
+            <img src="img/Instagram.svg" alt="Facebook">
+          </a>
+        </div>
+      </div>
+      <div class="footer__item">
+        <nav class="footer__nav">
+          <ul class="footer__lists">
+            <li class="footer__lists-item"><a class="footer__item-link" href="index.html">Главная</a></li>
+            <li class="footer__lists-item"><a class="footer__item-link" href="about.html">Обо мне</a></li>
+            <li class="footer__lists-item"><a class="footer__item-link" href="services.html">Услуги</a></li>
+            <li class="footer__lists-item"><a class="footer__item-link" href="price.html">Стоимость услуг</a></li>
+            <li class="footer__lists-item"><a class="footer__item-link" href="practice.html">Практика</a></li>
+            <li class="footer__lists-item"><a class="footer__item-link" href="questions.html">Вопросы</a></li>
+            <li class="footer__lists-item"><a class="footer__item-link" href="reviews.html">Отзывы</a></li>
+            <li class="footer__lists-item"><a class="footer__item-link" href="contact.html">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__item footer__services">
+        <nav class="footer__services-nav">
+          <ul class="footer__services-list">
+            <li class="footer__lists-item footer__services-title"><a href="services.html" class="footer__item-link">Услуги</a></li>
+            <li class="footer__lists-item"><a href="work-with-body.html" class="footer__item-link">Работа с телом</a></li>
+            <li class="footer__lists-item"><a href="work-with-feelings.html" class="footer__item-link">Работа с чувствами</a></li>
+            <li class="footer__lists-item"><a href="self-esteem.html" class="footer__item-link">Самооценка</a></li>
+            <li class="footer__lists-item"><a href="bullying.html" class="footer__item-link">Травля</a></li>
+            <li class="footer__lists-item"><a href="work-with-dependencies.html" class="footer__item-link">Работа с зависимостями</a></li>
+            <li class="footer__lists-item"><a href="group-therapy.html" class="footer__item-link">Групповая терапия</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__item footer__pay">
+
+        <div class="footer__pay-content footer__pay-content--desctop">
+          <p class="footer__pay-title">Способы оплаты онлайн</p>
+          <div class="footer__pay-item">
+            <div class="footer__pay-img">
+              <img src="img/pay-1.png" alt="pay">
+            </div>
+            <div class="footer__pay-img">
+              <img src="img/pay-2.png" alt="pay">
+            </div>
+            <div class="footer__pay-img">
+              <img src="img/pay-3.png" alt="pay">
+            </div>
+          </div>
+          <div class="footer__pay-item">
+            <div class="footer__pay-img">
+              <img src="img/pay-4.png" alt="pay">
+            </div>
+            <div class="footer__pay-img">
+              <img src="img/pay-5.png" alt="pay">
+            </div>
+          </div>
+          <div class="footer__pay-item">
+            <div class="footer__pay-img">
+              <img src="img/pay-6.png" alt="pay">
+            </div>
+            <div class="footer__pay-img">
+              <img src="img/pay-7.png" alt="pay">
+            </div>
+            <div class="footer__pay-img">
+              <img src="img/pay-8.png" alt="pay">
+            </div>
+          </div>
+          <div class="footer__pay-item">
+            <div class="footer__pay-img">
+              <img src="img/pay-9.png" alt="pay">
+            </div>
+            <div class="footer__pay-img">
+              <img src="img/pay-10.png" alt="pay">
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__pay-content footer__pay-content--mobile">
+          <p class="footer__pay-title">Способы оплаты онлайн</p>
+          <div class="footer__pay-item">
+            <div class="footer__pay-img">
+              <img src="img/pay-1.png" alt="pay">
+            </div>
+            <div class="footer__pay-img">
+              <img src="img/pay-2.png" alt="pay">
+            </div>
+            <div class="footer__pay-img">
+              <img src="img/pay-3.png" alt="pay">
+            </div>
+            <div class="footer__pay-img">
+              <img src="img/pay-4.png" alt="pay">
+            </div>
+            <div class="footer__pay-img">
+              <img src="img/pay-5.png" alt="pay">
+            </div>
+          </div>
+          <div class="footer__pay-item">
+            <div class="footer__pay-img">
+              <img src="img/pay-6.png" alt="pay">
+            </div>
+            <div class="footer__pay-img">
+              <img src="img/pay-7.png" alt="pay">
+            </div>
+            <div class="footer__pay-img">
+              <img src="img/pay-8.png" alt="pay">
+            </div>
+            <div class="footer__pay-img">
+              <img src="img/pay-9.png" alt="pay">
+            </div>
+            <div class="footer__pay-img">
+              <img src="img/pay-10.png" alt="pay">
+            </div>
+          </div>
+         </div>
+
+        <div class="footer__pay-inf">
+          <p class="footer__pay-inf--title">Информация</p>
+          <ul class="footer__pay-list">
+            <li class="footer__pay-li"><a href="#" class="footer__pay-link">1. Публичная оферта</a></li>
+            <li class="footer__pay-li"><a href="#" class="footer__pay-link">2. Публичный договор оферты</a></li>
+            <li class="footer__pay-li"><a href="#" class="footer__pay-link">3. Политика конфиденциальности</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    <!-- footer__wrap -->
+    <p class="footer__copyright">Copyright 2024-2025 © Все права защищены</p>
+    <!-- <p class="footer__copyright">Copyright &copy; 2024-<?php echo date("Y"); ?> Все права защищены</p> -->
+
+    <div class="footer__descr">
+      <p class="footer__descr-text">При использовании материалов активная ссылка на сайт психолога <a href="https://vitever.by">vitever.by</a> обязательна.</p>
+      <a href="https://vtop3.by/uslugi/sozdanie-sajtov/" class="footer__descr-developer">Разработка сайта ВТОП3</a>
+    </div>
+  </div>
+  <!-- container -->
+  <div class="modal modal-call modal-form" id="modal">
+  <form class="form modal__form" action="mail.php" method="POST">
+    <div class="modal__wrap">
+      <div class="modal__close">
+        <img src="img/close-btn.svg" alt="close">
+      </div>
+      <div class="modal__content">
+        <h2 class="modal__title">Оставить заявку</h2>
+        <p class="modal__subtitle">Я свяжусь с вами в ближайшее время</p>
+        <label class="label modal__item-label">
+          Как к вам обращаться
+          <input class="modal__item-input modal__item-input--text" type="text" name="name" placeholder="Имя">
+        </label>
+        <label class="label modal__item-label">
+          Номер телефона*
+          <input class="modal__item-input form__item-input--tel modal-tel" type="tel" name="phone" placeholder="+999 (99) 999-99-99" >
+        </label>
+
+        <label class="modal__label modal__label-checkbox" required>
+          <input class="modal__checkbox" type="checkbox" id="agree" required name="checkbox" checked data-validate-field="checkbox">
+          <span></span>
+          <p>Согласие на обработку персональных данных</p>
+        </label>
+      </div>
+      <button id="modal__send" class="modal__item-btn btn btn-reset">Отправить</button>
+      <div class="modal-social__wrap">
+        <a class="modal-social__link" href="https://t.me/psy_vitever" target="_blank">
+          <img src="img/Telegram.svg" alt="Telegram">
+        </a>
+        <a class="modal-social__link" href="viber://chat?number=%2B375291322705" target="_blank">
+          <img src="img/Viber.svg" alt="Viber">
+        </a>
+        <a class="modal-social__link" href="https://www.instagram.com/vitteverr?igsh=MTlpcXZ2Zzc2NjU2bg==" target="_blank">
+          <img src="img/Instagram.svg" alt="Instagram">
+        </a>
+        <a class="modal-social__link" href="https://www.facebook.com/profile.php?id=100008428381963&mibextid=ZbWKwL" target="_blank">
+          <img src="img/Facebook.svg" alt="Facebook">
+        </a>
+        <a class="modal-social__link" href="https://wa.clck.bar/375291322705" target="_blank">
+          <img src="img/WhatsApp.svg" alt="WhatsApp">
+        </a>
+        <a class="modal-social__link" href="skype:vitteverr" target="_blank">
+          <img src="img/Skype.svg" alt="Skype">
+        </a>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="modal__thanks">
+  <div class="modal__close modal__thanks-close">
+    <img src="img/close-btn.svg" alt="close">
+  </div>
+  <p class="modal__thanks-text">Спасибо!<br>Я скоро свяжусь с Вами</p>
+</div>
+
+<div class="up__wrap">
+  <div class="up__btn-circle up__btn" id="scrollBtn">
+    <img src="img/btn-up-1.svg" alt="circle">
+  </div>
+  <div class="up__btn-text">
+    <img src="img/btn-up-2.png" alt="circle">
+  </div>
+</div>
+
+<div class="social__up">
+  <div class="social__up-wrap">
+    <a class="social__up-link" href="https://t.me/psy_vitever" target="_blank">
+      <img src="img/Telegram.svg" alt="Telegram">
+    </a>
+    <a class="social__up-link" href="viber://chat?number=%2B375291322705" target="_blank">
+      <img src="img/Viber.svg" alt="Viber">
+    </a>
+    <a class="social__up-link" href="https://www.instagram.com/vitteverr?igsh=MTlpcXZ2Zzc2NjU2bg==" target="_blank">
+      <img src="img/Instagram.svg" alt="Instagram">
+    </a>
+    <a class="social__up-link" href="https://www.facebook.com/profile.php?id=100008428381963&mibextid=ZbWKwL" target="_blank">
+      <img src="img/Facebook.svg" alt="Facebook">
+    </a>
+    <a class="social__up-link" href="https://wa.clck.bar/375291322705" target="_blank">
+      <img src="img/WhatsApp.svg" alt="WhatsApp">
+    </a>
+    <a class="social__up-link" href="skype:vitteverr" target="_blank">
+      <img src="img/Skype.svg" alt="Skype">
+    </a>
+    <div class=" social__btn-close social__up-link">
+      <img src="img/social-btn-close.svg" alt="close">
+    </div>
+  </div>
+  <div class="social__up-btn">
+    <div class="social__up-text">
+      <img src="img/icon-messenger.png" alt="мессенджеры">
+    </div>
+    <div class="social__up-icon social__btn-open">
+      <img src="img/messages.png" alt="мессенджеры">
+    </div>
+  </div>
+</div>
+
+<div class="online__wripper">
+    <div class="online__up-text">
+      <img src="img/online.png" alt="мессенджеры">
+    </div>
+    <div class="online__up-icon btn-consult">
+      <img src="img/sign.png" alt="мессенджеры">
+    </div>
+</div>
+
+</footer>
+
+  </div>
+</body>
+
+</html>
